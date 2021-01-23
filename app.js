@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 
 app.get("/weather", (req, res) => {
     let result = req.query.weather;
-    let url = `https://api.openweathermap.org/data/2.5/weather?q=${result}&units=metric&APPID=4f53ae96720336f10408d3a5dbfed28c`;
+    let url = `<| Add Your Link |>`;
     request(url, (error, response, body) => {
         if (!error && response.statusCode == 200) {
             let data = JSON.parse(body);
