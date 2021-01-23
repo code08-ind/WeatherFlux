@@ -1,0 +1,99 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>WEATHERFLUX</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $(".inp").tooltip({
+                show: {
+                    effect: "slideDown",
+                    delay: 300
+                }
+            });
+
+            $("#mes").tooltip({
+                show: {
+                    effect: "slideDown",
+                    delay: 300
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark">
+        <a class="navbar-brand" id="mes" title="WEATHERFLUX" href="/">
+            <img src="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png" alt="Weather Icon"
+                height="40px" width="40px" style="padding-bottom: 0px;">
+            WEATHER<span>FLUX</span>
+        </a>
+    </nav>
+    <br>
+    <h2 class="name display-4 animate__animated animate__bounce"><img
+            src="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png" alt="Weather Icon"
+            height="70px" width="60px" style="padding-bottom: 10px;"> WEATHER<span>FLUX</span></h2>
+    <br>
+    <p class="animate__animated animate__jello">Access current weather data for any location on Earth including over
+        200,000 cities! It Provides Facilities Of
+        Finding The City And It's Further Details Along With Position Of City With City Name And Various Other
+        Facilities. We Do Not Function Under <b><a id="link" href="https://www.accuweather.com/">Accuweather.com</a></b>
+    </p>
+    <br>
+    <div class="container">
+        <br>
+        <h2 class="good display-4 animate__animated animate__rubberBand">
+            Search For A Weather Of A City
+        </h2>
+        <form action="/weather" method="GET">
+            <div class="form-group">
+                <input type="text" class="form-control animate__animated animate__lightSpeedInRight"
+                    title="Enter The City Name For Which You Want To Search For Weather" id="formGroupExampleInput"
+                    class="inp" placeholder="Search For A City For It's Weather" name="weather">
+                <br>
+                <button type="submit"
+                    class="btn btn-success btn-lg btn-toolbar animate__animated animate__flipInX">SEARCH</button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <h5 class="copy animate__animated animate__flipInY">CREATED BY @ARYAN GARG &copy; 2020</h5>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7ff00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #db36a4,
+    #f7ff00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #db36a4,
+    #f7ff00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow-x: hidden;
+}
+
+nav.navbar {
+  border-bottom: 4px solid #fff;
+  background-color: rgb(5, 5, 80);
+}
+
+nav.navbar a.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5em;
+}
+
+nav.navbar a.navbar-item {
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.4s ease-in;
+}
+
+nav.navbar a.navbar-item:hover {
+  color: red;
+}
+
+nav.navbar a.navbar-brand span {
+  color: rgb(255, 123, 0);
+  font-style: italic;
+}
+
+div.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+div.container div.card {
+  margin: 0 auto;
+  margin-top: -15px;
+  box-shadow: -1px 6px 27px 7px rgba(0, 0, 0, 0.84);
+  -webkit-box-shadow: -1px 6px 27px 7px rgba(0, 0, 0, 0.84);
+  -moz-box-shadow: -1px 6px 27px 7px rgba(0, 0, 0, 0.84);
+}
+
+div.container div.card div.card-body h5.two {
+  margin-bottom: 0px;
+}
+
+div.container div.card div.card-body h4 {
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-family: "Noto Sans HK", sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "Prompt", sans-serif;
+}
+
+h4 {
+  font-family: "Bodoni Moda", serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
