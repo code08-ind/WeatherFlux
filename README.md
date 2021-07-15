@@ -20,7 +20,7 @@ npm install request --save
 And Run This App In Your Sytem In Your Live Server.
 
 ### What Is Tech Stack Used?
-It Makes Use Of HTML,CSS In FrontEnd And Use Of Express JS And Node JS In Backend.
+It Makes Use Of HTML, CSS In FrontEnd And Use Of Express JS And Node JS In Backend.
 
 ### Outcomes Of Project:
 Here In You Need To Enter The City Name And It Will Give You All The Required Weather Details.
