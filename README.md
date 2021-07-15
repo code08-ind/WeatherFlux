@@ -19,8 +19,6 @@ npm install request --save
 
 And Run This App In Your Sytem In Your Live Server.
 
-Visit The Project By Going Through Below Given Link:
-
 ### What Is Tech Stack Used?
 It Makes Use Of HTML,CSS In FrontEnd And Use Of Express JS And Node JS In Backend.
 
